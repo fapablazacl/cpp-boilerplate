@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "cpp-boilerplate",
+  "version": "0.15.2",
+  "dependencies": [
+    "boost-system",
+    {
+      "name": "cpprestsdk",
+      "default-features": false
+    },
+    "libxml2",
+    "yajl"
+  ]
+}
